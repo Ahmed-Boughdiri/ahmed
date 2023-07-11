@@ -1,0 +1,53 @@
+
+.project_card {
+    width: 180px;
+    height: 240px;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 15px;
+}
+.prject_name {
+    text-align: left;
+    color: #282C2F;
+    font-size: 0.88rem;
+    font-weight: bolder;
+    margin-top: 25px;
+    align-self: flex-start;
+}
+.project_logo_container {
+    height: 85px;
+    width: 85px;
+    overflow: hidden;
+}
+.project_ratings_container {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    margin-top: 4px;
+    align-self: flex-start;
+}
+.project_preview_button {
+    width: 100%;
+    margin-top: 15px;
+    height: 32px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background-color: #F1C40F;
+}
+.project_preview_button:hover {
+    background: #ffcc01;
+    transition: all 300ms ease-out;
+}
+.project_preview_button h6 {
+    color: #282C2F;
+    font-size: 13px;
+    font-weight: bold;
+}

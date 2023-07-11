@@ -1,0 +1,33 @@
+
+.projects_container {
+    margin-top: 24px;
+    padding: 0 20px 50px;
+    width: 100%;
+    height: fit-content;
+}
+.projects_section_title {
+    color: #000;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+.projects_section {
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    gap: 10px;
+}
+.projects {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    gap: 18px;
+}
+.project_details {
+    width: 55%;
+    min-height: 300px;
+    height: fit-content;
+    border-radius: 5px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+    padding: 30px;
+}

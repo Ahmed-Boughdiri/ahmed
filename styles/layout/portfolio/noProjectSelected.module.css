@@ -1,0 +1,16 @@
+
+.no_project_selected_container {
+    height: 260px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 15px;
+}
+.no_project_selected_container h6 {
+    text-align: center;
+    color: #282C2F;
+    font-size: 1.1rem;
+    font-weight: bold;
+}

@@ -1,0 +1,45 @@
+
+.container {
+    width: calc(100% - 40px);
+    height: 95%;
+    margin: 0 auto;
+    padding-top: 30px;
+}
+.file {
+    width: 100%;
+    height: 35px;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 0 16px;
+    cursor: pointer;
+    margin-bottom: 6px;
+}
+.file:hover {
+    background: #E3E7EA;
+}
+.file h6 {
+    font-size: 0.8rem;
+    font-weight: normal;
+    color: #282C2F;
+    translate: 0 2px;
+    width: 40%;
+}
+.file p {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 0.72rem;
+    translate: 0 2px;
+    color: #6E7376;
+    width: 25%;
+    display: flex;
+    align-items: center;
+}
+#date {
+    width: 12%;
+    margin-right: 20px;
+}
+.file p:last-child {
+    width: 8%;
+}

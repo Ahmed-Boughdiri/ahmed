@@ -1,0 +1,54 @@
+
+.container {
+    width: calc(100% - 40px);
+    height: 95%;
+    margin: 0 auto 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+.about_me_image {
+    width: 40%;
+    height: 90%;
+    background: url(https://images.unsplash.com/photo-1506794778202-cad84cf45f1d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=387&q=80);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.about_me_description {
+    width: 60%;
+    height: fit-content;
+    min-height: 100%;
+    padding-top: 30px;
+}
+.about_me_description h1 {
+    font-size: 1.4rem;
+    text-transform: uppercase;
+    font-weight: bolder;
+    color: #282C2F;
+    margin-bottom: 16px;
+}
+.about_me_description p {
+    font-size: 0.9rem;
+    color: #282C2F;
+    font-weight: normal;
+    margin-top: 10px;
+}
+.abou_me_social_media {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    margin-top: 20px;
+}
+.abou_me_social_media img {
+    cursor: pointer;
+}
+.about_me_social_media_label {
+    font-size: 0.6rem;
+    font-weight: normal;
+    color: #282C2F;
+    background-color: #E3E7EA;
+    padding: 8px 20px;
+    border-radius: 5px;
+    position: absolute;
+}
