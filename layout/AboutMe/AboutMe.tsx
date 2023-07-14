@@ -16,23 +16,15 @@ export const AboutMe = () => {
             <div className={styles.about_me_description}>
                 <h1>Ahmed Boughdiri</h1>
                 <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Possimus at est impedit consequatur adipisci, 
-                    unde obcaecati quam suscipit debitis tempora quia earum veniam fugit maxime sed, 
-                    eum quod hic dicta!
+                    Hi, I'm Ahmed, a passionate full-stack developer with a programming journey that began at the age of 14. 
+                    Specializing in web development, I thrive in the world of MERN (MongoDB, Express, React, NodeJS). 
+                    However, my skills extend beyond those boundaries, 
+                    encompassing PHP, Python, React Native, MySQL, WordPress, and more. 
+                    As a freelancer, I've had the privilege of collaborating with remarkable businesses and startups, 
+                    honing my expertise along the way. 
+                    Now, I'm eagerly seeking new and exciting ventures in the ever-evolving IT world.
                 </p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Possimus at est impedit consequatur adipisci, 
-                    unde obcaecati quam suscipit debitis tempora quia earum veniam fugit maxime sed, 
-                    eum quod hic dicta!
-                </p>
-                <p>
-                    Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Possimus at est impedit consequatur adipisci, 
-                    unde obcaecati quam suscipit debitis tempora quia earum veniam fugit maxime sed, 
-                    eum quod hic dicta!
-                </p>
+                
                 <div className={styles.abou_me_social_media}>
                     <div>
                         <Image 

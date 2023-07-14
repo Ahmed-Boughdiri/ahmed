@@ -29,16 +29,17 @@
     margin-bottom: 16px;
 }
 .about_me_description p {
-    font-size: 0.9rem;
+    font-size: 1rem;
     color: #282C2F;
     font-weight: normal;
     margin-top: 10px;
+    line-height: 1.7rem;
 }
 .abou_me_social_media {
     display: flex;
     align-items: center;
     gap: 14px;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 .abou_me_social_media img {
     cursor: pointer;
