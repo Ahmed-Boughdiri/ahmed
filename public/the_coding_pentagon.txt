@@ -8,7 +8,7 @@ Over the course of several months,
 I dedicated myself to building a comprehensive solution that seamlessly integrates both frontend and backend functionalities, 
 catering to the diverse needs of the platform's users.
 
-![The Coding Pentagon Auth](http://localhost:3000/coding-pentagon-auth.gif)
+![The Coding Pentagon Auth](https://ahmed-boughdiri.github.io/ahmed/coding-pentagon-auth.gif)
 
 **Technology Stack:**
 To ensure a cutting-edge and robust system, 
@@ -19,7 +19,7 @@ On the backend, I employed the reliable combination of MongoDB,
 Express, and Node.js (MERN stack) to facilitate data management, 
 user interactions, and seamless communication between the client and server.
 
-![The Coding Pentagon Profile](http://localhost:3000/coding-pentagon-profile.gif)
+![The Coding Pentagon Profile](https://ahmed-boughdiri.github.io/ahmed/coding-pentagon-profile.gif)
 
 **Empowering IT Professionals:**
 At the core of this project lies the mission to equip IT professionals with valuable business skills that complement their technical expertise. 
@@ -27,7 +27,7 @@ Through The Coding Pentagon, users gain access to a diverse array of courses, co
 By bridging the gap between technical prowess and business acumen, 
 this platform empowers learners to thrive in today's competitive IT landscape.
 
-![The Coding Pentagon Home](http://localhost:3000/coding-pentagon-home.gif)
+![The Coding Pentagon Home](https://ahmed-boughdiri.github.io/ahmed/coding-pentagon-home.gif)
 
 **Student Dashboard & Beyond:**
 One of the project's central features is the creation of a sophisticated student dashboard, 
@@ -35,7 +35,7 @@ offering an intuitive and user-friendly interface for learners to manage their p
 Additionally, the platform houses a plethora of other captivating functionalities, 
 enhancing the overall learning experience and fostering a sense of community among users.
 
-![The Coding Pentagon Favourite](http://localhost:3000/coding-pentagon-favourite.gif)
+![The Coding Pentagon Favourite](https://ahmed-boughdiri.github.io/ahmed/coding-pentagon-favourite.gif)
    
 
 **Challenges and Achievements:**
@@ -45,7 +45,7 @@ The platform's performance and scalability were paramount considerations,
 and through rigorous testing and optimization, we achieved a responsive and efficient system, 
 capable of handling a growing user base.  
 
-![The Coding Pentagon Cart](http://localhost:3000/coding-pentagon-cart.gif)
+![The Coding Pentagon Cart](https://ahmed-boughdiri.github.io/ahmed/coding-pentagon-cart.gif)
    
 
 **Final Outcome:**

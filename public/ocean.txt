@@ -14,7 +14,7 @@ ensuring a smooth flow of information between the application and the database.
 This layer handled user data, chat history, 
 and other essential information necessary for the real-time chat functionality.
 
-![Ocean Login](http://localhost:3000/ocean-login.gif)
+![Ocean Login](https://ahmed-boughdiri.github.io/ahmed/ocean-login.gif)
    
 
 **View - The UI:**
@@ -24,7 +24,7 @@ Utilizing HTML, CSS, and JavaScript, I meticulously crafted the UI,
 ensuring a clean and intuitive design that made the chat app a pleasure to navigate. 
 The seamless integration of socket.js enabled real-time updates and delivered an immersive communication experience.
 
-![Ocean Rooms](http://localhost:3000/ocean-rooms.gif)
+![Ocean Rooms](https://ahmed-boughdiri.github.io/ahmed/ocean-rooms.gif)
    
 
 **Controller - Steering the Interaction:**
@@ -33,7 +33,7 @@ Here, I orchestrated the flow of user interactions and managed event handling.
 By leveraging express.js, I skillfully managed HTTP requests, responded to client-side actions, 
 and coordinated the communication between the client and the server.
 
-![Ocean Chatting](http://localhost:3000/ocean-chatting.gif)
+![Ocean Chatting](https://ahmed-boughdiri.github.io/ahmed/ocean-chatting.gif)
    
 
 **The Benefits of MVC:**

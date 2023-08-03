@@ -28,7 +28,7 @@ export const ProjectDetails:React.FC<ProjectDetailsProps> = ({
     const [projectDescription, setProjectDescription] = useState("");
     const loadProjectDescription = async () => {
         if(!dir) return
-        const req = await fetch(`http://localhost:3000/${dir}`);
+        const req = await fetch(`https://ahmed-boughdiri.github.io/ahmed/${dir}`);
         const res = await req.text();
         setProjectDescription(res);
     }

@@ -7,7 +7,7 @@ Combining my skills in HTML, CSS, Material CSS, and JavaScript,
 I set out to craft an immersive and visually stunning experience 
 that would inspire visitors to embark on a fitness journey.
 
-![California GYM Home](http://localhost:3000/california-gym-home.gif)
+![California GYM Home](https://ahmed-boughdiri.github.io/ahmed/california-gym-home.gif)
    
 
 **Crafting an Engaging User Interface:**

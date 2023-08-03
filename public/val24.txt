@@ -6,7 +6,7 @@ of Valorant enthusiasts. The project, although relatively small in scale,
 proved to be a valuable learning experience, 
 showcasing the power of WordPress and its potential to empower online businesses.
 
-![Val24 Home](http://localhost:3000/val24-home.gif)
+![Val24 Home](https://ahmed-boughdiri.github.io/ahmed/val24-home.gif)
    
 
 **E-Commerce with WordPress:**
@@ -15,7 +15,7 @@ With its robust content management system (CMS) and a myriad of e-commerce plugi
 WordPress offered an ideal platform to build a feature-rich online store that seamlessly integrated product catalog management, 
 payment gateways, and customer interactions.
 
-![Val24 Product Display](http://localhost:3000/val24-product.gif)
+![Val24 Product Display](https://ahmed-boughdiri.github.io/ahmed/val24-product.gif)
    
 
 **Navigating the E-Commerce Landscape:**
@@ -24,7 +24,7 @@ From implementing secure payment gateways to ensuring an optimized user experien
 I delved into the intricacies of e-commerce development, 
 discovering the importance of responsive design and streamlined checkout processes.
 
-![Val24 Products Display](http://localhost:3000/val24-products.gif)
+![Val24 Products Display](https://ahmed-boughdiri.github.io/ahmed/val24-products.gif)
    
 
 **Lessons and Growth:*
@@ -32,7 +32,7 @@ Though Val24 may have been a smaller project in scale,
 its impact on my growth as a developer was substantial. 
 The experience of building an e-commerce store using WordPress allowed me to refine my skills in front-end development, 
 UX design, and understanding customer behavior in the context of online shopping.
-![Val24 Products Basket](http://localhost:3000/val24-basket.gif)
+![Val24 Products Basket](https://ahmed-boughdiri.github.io/ahmed/val24-basket.gif)
 
 **A Stepping Stone:**
 While Val24 may have concluded its journey, 

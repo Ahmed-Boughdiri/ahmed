@@ -7,7 +7,7 @@ a platform exclusively dedicated to buying and selling items using the native cr
 Though the project did not come to fruition, the experience proved to be an invaluable learning opportunity, 
 providing deep insights into the world of blockchain technology and dApp development.
 
-![Tshilila Coin Home](http://localhost:3000/tshilila-coin-home.gif)
+![Tshilila Coin Home](https://ahmed-boughdiri.github.io/ahmed/tshilila-coin-home.gif)
    
 
 **Venturing into the World of Blockchain:**
@@ -15,7 +15,7 @@ Tshilila Coin marked my maiden voyage into the captivating world of blockchain t
 The decentralized nature of blockchain intrigued me, 
 and I was determined to harness its potential to create an innovative marketplace that could redefine how individuals engage in online commerce.
 
-![Tshilila Coin Purchase](http://localhost:3000/tshilila-coin-purchase.gif)
+![Tshilila Coin Purchase](https://ahmed-boughdiri.github.io/ahmed/tshilila-coin-purchase.gif)
    
 
 **Building a Web3 Marketplace:**
@@ -24,7 +24,7 @@ I set out to craft a full-fledged decentralized marketplace that operated solely
 The project's vision was to foster a community of buyers and sellers who could seamlessly transact and exchange goods using 
 this unique digital currency.
 
-![Tshilila Coin Whitepaper](http://localhost:3000/tshilila-coin-whitepaper.gif)
+![Tshilila Coin Whitepaper](https://ahmed-boughdiri.github.io/ahmed/tshilila-coin-whitepaper.gif)
    
 
 **Navigating New Territories:**
@@ -34,7 +34,7 @@ The intricacies of blockchain development demanded a paradigm shift in my approa
 Smart contract development, decentralized storage, and ensuring the security and integrity of the blockchain ecosystem were among 
 the many aspects that required dedicated attention and perseverance.
 
-![Tshilila Coin Sample #1](http://localhost:3000/tshilila-coin-sample-1.png)
+![Tshilila Coin Sample #1](https://ahmed-boughdiri.github.io/ahmed/tshilila-coin-sample-1.png)
    
 
 **The Unfulfilled Dream:**
@@ -42,7 +42,7 @@ Despite the unwavering commitment and tireless efforts invested in Tshilila Coin
 the project, unfortunately, did not see the light of day. As the landscape of blockchain and cryptocurrencies 
 is ever-evolving, external factors and market dynamics played a role in shaping the outcome.
 
-![Tshilila Coin Sample #2](http://localhost:3000/tshilila-coin-sample-2.png)
+![Tshilila Coin Sample #2](https://ahmed-boughdiri.github.io/ahmed/tshilila-coin-sample-2.png)
    
 
 **An Invaluable Experience:**
@@ -51,7 +51,7 @@ the journey itself was replete with invaluable experiences.
 The project allowed me to gain a profound understanding of blockchain technology, 
 smart contract development, decentralized applications, and the fascinating world of cryptocurrencies.
 
-![Tshilila Coin Sample #3](http://localhost:3000/tshilila-coin-sample-3.png)
+![Tshilila Coin Sample #3](https://ahmed-boughdiri.github.io/ahmed/tshilila-coin-sample-3.png)
    
 
 **The Spirit of Innovation Lives On:**
@@ -60,7 +60,7 @@ the spirit of innovation and exploration persists.
 As a full-stack developer, the lessons learned and the knowledge gained from this undertaking continue 
 to influence my approach to problem-solving and inform my pursuit of creating cutting-edge solutions.
 
-![Tshilila Coin Sample #4](http://localhost:3000/tshilila-coin-sample-4.png)
+![Tshilila Coin Sample #4](https://ahmed-boughdiri.github.io/ahmed/tshilila-coin-sample-4.png)
    
 
 As I carry the experience of Tshilila Coin with me, 

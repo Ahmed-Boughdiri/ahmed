@@ -7,7 +7,7 @@ As a crucial member of the team, I assumed the role of frontend developer,
 playing a vital part in translating the design team's mockups into captivating user interfaces and seamlessly integrating them 
 with the required APIs.
 
-![SpeakingLine Sample #1](http://localhost:3000/speakingline-sample-1.png)
+![SpeakingLine Sample #1](https://ahmed-boughdiri.github.io/ahmed/speakingline-sample-1.png)
    
 
 **Revolutionizing Language Learning:**
@@ -15,7 +15,7 @@ At the heart of speakingLine lies the ambition to revolutionize language educati
 The platform's mission is to provide a robust and user-friendly environment that empowers individuals to acquire fluency in English, 
 opening up a world of opportunities and possibilities.
 
-![SpeakingLine Sample #2](http://localhost:3000/speakingline-sample-2.png)
+![SpeakingLine Sample #2](https://ahmed-boughdiri.github.io/ahmed/speakingline-sample-2.png)
    
 
 **Championing Frontend Development:**
@@ -24,7 +24,7 @@ dedicating my expertise to breathe life into the design team's visions.
 Utilizing an array of web technologies such as HTML, CSS, and JavaScript, 
 I meticulously crafted immersive and intuitive user interfaces that catered to the specific needs of the platform's audience.
 
-![SpeakingLine Sample #3](http://localhost:3000/speakingline-sample-3.png)
+![SpeakingLine Sample #3](https://ahmed-boughdiri.github.io/ahmed/speakingline-sample-3.png)
    
 
 **Transforming Mockups into Reality:**
@@ -32,7 +32,7 @@ The design team's mockups served as the blueprint for the platform's visual iden
 My skillful execution allowed for seamless translation of these mockups into fully functional and aesthetically pleasing UIs, 
 ensuring that the platform was not just visually appealing but also intuitive to navigate and interact with.
 
-![SpeakingLine Sample #4](http://localhost:3000/speakingline-sample-4.png)
+![SpeakingLine Sample #4](https://ahmed-boughdiri.github.io/ahmed/speakingline-sample-4.png)
    
 
 **Seamless Integration with APIs:**
