@@ -66,7 +66,7 @@ export const projects = [
         scale: 1,
         dir: "/ocean.txt",
         subtitle: "Chat App",
-        website: "",
+        website: "https://ocean-chat.onrender.com/",
         github: "https://github.com/Ahmed-Boughdiri/Ocean"
     },
 ]
