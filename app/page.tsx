@@ -4,17 +4,38 @@ import {
   Navbar, 
   Window,
   MenuBar,
-  Desktop
+  Desktop,
+  Loading
 } from "../components";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import { WindowProps } from "../types";
+import Head from "next/head";
+
  
 export default function Home() {
   const [windowsData, setWindowsData] = useState<WindowProps[]>([]);
   const createNewWindow = (newWindow: WindowProps) => 
     setWindowsData(prevState =>[...prevState, newWindow]);
+  const [loading, setLoading] = useState(true);
+  const handleLoading = () =>{
+    setTimeout(() =>{
+      setLoading(false);
+    }, 1500);
+  }
+
+  useEffect(() =>{
+    handleLoading();
+  }, []);
   return (
     <div className={styles.container}>
+      <Head>
+        <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+      </Head>
+      {
+        loading && (
+          <Loading />
+        )
+      }
       <Navbar createNewWindow={createNewWindow} />
       <MenuBar />
       <Desktop createNewWindow={createNewWindow} />

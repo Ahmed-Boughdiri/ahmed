@@ -18,7 +18,7 @@ export const Navbar:React.FC<NavbarProps> = ({ createNewWindow }) => {
     const [showAppsLabel, setShowAppsLabel] = useState(false);
 
     return (
-        <div className="h-fit w-fit fixed z-50 left-[50%] translate-x-[-50%] bottom-7 flex items-center gap-5">
+        <div className="h-fit w-fit fixed z-40 left-[50%] translate-x-[-50%] md:bottom-7 bottom-5 flex items-center gap-5">
             <div 
                 className="h-16 w-16 flex items-center justify-center bg-white rounded-full shadow-lg cursor-pointer hover:scale-105 transition-transform duration-300"
                 onMouseEnter={() => setShowBrowserLabel(true)}    

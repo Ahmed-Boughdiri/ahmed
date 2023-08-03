@@ -2,8 +2,9 @@
 .container {
     width: calc(100% - 40px);
     height: 95%;
-    margin: 0 auto;
+    margin: 0;
     padding-top: 30px;
+    max-width: 750px;
 }
 .file {
     width: 100%;
@@ -42,4 +43,26 @@
 }
 .file p:last-child {
     width: 8%;
+}
+
+@media only screen and (width < 600px) {
+    .container {
+        width: 100%;
+    }
+    #date {
+        display: none;
+    }
+    .file {
+        margin-bottom: 15px;
+        gap: 10px;
+    }
+    .file> p:last-child {
+        display: none;
+    }
+    .file h6 {
+        width: 70%;
+    }
+    .file p {
+        width: 30%;
+    }
 }

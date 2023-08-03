@@ -9,27 +9,23 @@ export const certificates = [
         icon: accessCertificateIcon,
         type: "English Certificate",
         date: "20/11/2019",
-        size: 90
+        size: 90,
+        path: "/access.pdf"
     },
     {
         name: "Go My Code - AI Level 1",
         icon: fileIcon,
         type: "AI Certificate",
         date: "12/10/2020",
-        size: 120
+        size: 120,
+        path: "/gomycode.pdf"
     },
     {
         name: "Bac Informatique",
         icon: bacFileIcon,
         type: "baccalauréat",
         date: "09/07/2020",
-        size: 50
-    },
-    {
-        name: "Go My Code - Web Dev Level 1",
-        icon: webCertificateIcon,
-        type: "Web Dev Certificate",
-        date: "07/09/2022",
-        size: 100
+        size: 50,
+        path: "/bac.pdf"
     }
 ]

@@ -4,10 +4,12 @@ import cvIcon from "../assets/icons/cv.png";
 export const files = [
     {
         name: "My CV",
-        icon: cvIcon
+        icon: cvIcon,
+        link: "/cv.pdf"
     },
     {
         name: "Motivational Letter",
-        icon: letterIcon
+        icon: letterIcon,
+        link: "/cover-letter.pdf"
     }
 ]

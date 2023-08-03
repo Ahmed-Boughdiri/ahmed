@@ -10,6 +10,7 @@
     justify-content: center;
     flex-direction: column;
     padding: 0 15px;
+    flex: 0 0 calc(32% - 10px);
 }
 .prject_name {
     text-align: left;
@@ -50,4 +51,13 @@
     color: #282C2F;
     font-size: 13px;
     font-weight: bold;
+}
+
+/*  Mobile  */
+
+@media only screen and (width < 600px) {
+    .project_card {
+        width: 100%;
+        padding: 30px 17px;
+    }
 }

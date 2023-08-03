@@ -11,6 +11,7 @@ export const Browser = () => (
                 <div 
                     className={styles.file}
                     key={file.name}
+                    onDoubleClick={() => window.open(file.link)}
                 >
                     <div className={styles.file_thumbnail_container}>
                         <Image 

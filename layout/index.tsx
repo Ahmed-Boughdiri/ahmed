@@ -6,17 +6,21 @@ import { Certifications } from "./Certifications/Certifications";
 import { Browser } from "./Browser/Browser";
 
 interface LayoutProps {
-    name: String | ""
+    name: String | "",
+    windowAlreadyExpanded?: Boolean
 }
 
-const Layout:React.FC<LayoutProps> = ({ name }) => {
+const Layout:React.FC<LayoutProps> = ({ 
+    name, 
+    windowAlreadyExpanded=false
+}) => {
     switch(name) {
         case "Portfolio":
             return <Portfolio />
         case "Video":
-            return <Video />
+            return <Video windowAlreadyExpanded={windowAlreadyExpanded} />
         case "About Me":
-            return <AboutMe />
+            return <AboutMe windowAlreadyExpanded={windowAlreadyExpanded} />
         case "Contact Details":
             return <ContactDetails />
         case "Certifications":

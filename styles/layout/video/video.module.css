@@ -45,3 +45,52 @@
 .language:hover {
     background: #E3E7EA;
 }
+.video_player {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 14px;
+}
+.paragraph {
+    font-size: 1rem;
+    line-height: 1.8rem;
+}
+.title {
+    font-size: 1.8rem;
+    text-align: left;
+}
+.french {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    gap: 14px;
+}
+.tounsi {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-items: flex-start;
+    gap: 14px;
+}
+
+/*  Mobile  */
+
+@media only screen and (width < 600px) {
+    .container {
+        padding-top: 170px;
+    }
+    .languages {
+        flex-direction: column;
+    }
+    .video_player {
+        width: 100%;
+        height: 200px;
+    }
+    .video_player>* {
+        height: 100%;
+        width: 100%;
+        margin-top: -150px;
+    }
+}

@@ -1,3 +1,4 @@
+import Head from 'next/head'
 import './globals.css'
 import { Inter } from 'next/font/google'
 
@@ -15,6 +16,14 @@ export default function RootLayout({
 }) {
   return (
     <html lang="en">
+      <head>
+        <link
+          rel="icon"
+          href="/favicon.svg"
+          type="image/svg"
+        />
+        <title>Ahmed Boughdiri</title>
+      </head>
       <body className={inter.className}>{children}</body>
     </html>
   )

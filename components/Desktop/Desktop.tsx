@@ -10,7 +10,7 @@ interface DesktopProps {
 }
 
 export const Desktop:React.FC<DesktopProps> = ({ createNewWindow }) => (
-    <div className="w-full h-[600px] fixed top-8 left-0 z-10 px-3">
+    <div className="w-full h-[600px] fixed md:top-8 top-16 md:left-0 left-[-15px] z-10 px-3">
         <div 
             className="h-28 w-28 flex items-center justify-center flex-col gap-1.5 rounded-md bg-black bg-opacity-0 hover:bg-opacity-40 cursor-pointer mb-2 mr-3"
             onDoubleClick={() => createNewWindow({ 
@@ -27,7 +27,7 @@ export const Desktop:React.FC<DesktopProps> = ({ createNewWindow }) => (
                 alt="favourite icon"
                 draggable={false}
             />
-            <h6 className="text-center text-white text-xs font-medium shadow-md">
+            <h6 className="text-center text-white md:text-xs text-sm font-medium md:shadow-md">
                 About Me
             </h6>
         </div>
@@ -48,7 +48,7 @@ export const Desktop:React.FC<DesktopProps> = ({ createNewWindow }) => (
                 alt="compass icon"
                 draggable={false}
             />
-            <h6 className="text-center text-white text-xs font-medium shadow-md">
+            <h6 className="text-center text-white md:text-xs text-sm font-medium md:shadow-md">
                 PORTFOLIO
             </h6>
         </div>
@@ -67,7 +67,7 @@ export const Desktop:React.FC<DesktopProps> = ({ createNewWindow }) => (
                 alt="messages icon"
                 draggable={false}
             />
-            <h6 className="text-center text-white text-xs font-medium shadow-md">
+            <h6 className="text-center text-white md:text-xs text-sm font-medium md:shadow-md">
                 CONTACT
             </h6>
         </div>

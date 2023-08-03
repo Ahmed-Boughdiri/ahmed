@@ -2,21 +2,20 @@ import styles from "../../styles/layout/certifications/certifications.module.css
 import Image from "next/image";
 import { certificates } from "../../global";
 
-import fileIcon from "../../assets/icons/file.png";
-
 export const Certifications = () => (
     <div className={styles.container}>
         {
             certificates.map(certificate =>(
                 <div 
                     className={styles.file}
-                    key={certificate.name}    
+                    key={certificate.name}   
+                    onClick={() => window.open(certificate.path)} 
                 >
                     <Image 
                         src={certificate.icon}
                         alt="file icon"
-                        height={22}
-                        width={22}
+                        height={window.innerWidth > 600 ? 22 : 32}
+                        width={window.innerWidth > 600 ? 22 : 32}
                     />
                     <h6>{certificate.name}</h6>
                     <p id={styles.date}>{certificate.date}</p>

@@ -1,6 +1,6 @@
 
 .projects_container {
-    margin-top: 24px;
+    margin-top: 20px;
     padding: 0 20px 50px;
     width: 100%;
     height: fit-content;
@@ -12,6 +12,7 @@
 }
 .projects_section {
     width: 100%;
+    height: fit-content;
     margin-top: 20px;
     display: flex;
     gap: 10px;
@@ -19,8 +20,12 @@
 .projects {
     width: 45%;
     display: flex;
+    flex-wrap: wrap;
     align-items: flex-start;
     gap: 18px;
+    columns: 3 auto;
+    justify-content: flex-start;
+    height: fit-content;
 }
 .project_details {
     width: 55%;
@@ -30,4 +35,22 @@
     background-color: #fff;
     box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
     padding: 30px;
+}
+
+/*  Mobile  */
+
+@media only screen and (width < 600px) {
+    .projects_section {
+        flex-direction: column-reverse;
+    }
+    .projects {
+        width: 100%;
+        flex-direction: column;
+        align-items: center;
+    }
+    .project_details {
+        width: 100%;
+        margin-bottom: 20px;
+
+    }
 }

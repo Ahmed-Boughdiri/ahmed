@@ -1,12 +1,13 @@
 "use client"
 import Image from "next/image";
-import { useState, useRef } from "react";
+import { useState, useRef, useEffect } from "react";
 import Layout from "../../layout";
 
 import closeIcon from "../../assets/icons/close.png";
 import minimizeIcon from "../../assets/icons/minimize.png";
 import minusIcon from "../../assets/icons/minus.png";
 import closeWhiteIcon from "../../assets/icons/close-white.png";
+import transparentImage from "../../assets/pictures/transparent.png";
 
 interface WindowProps {
     height?: String | Number,
@@ -24,16 +25,43 @@ export const Window:React.FC<WindowProps> = ({
     content
 }) =>{
     const [windowVisible, setWindowVisible] = useState(true);
-    const windowRef = useRef<HTMLDivElement|null>(null);
-    const [windowXPosition, setWindowXPosition] = useState(0);
-    const [windowYPosition, setWindowYPosition] = useState(0);
-    const handleDrag = (e:React.DragEvent) => {
-        setWindowXPosition(e.clientX);
-        setWindowYPosition(e.clientY)
-    }
-    const handleDragOver = (e:React.DragEvent) => {
     
-    }
+    // Handle Dragging
+    const [isDragging, setIsDragging] = useState(false);
+    const [position, setPosition] = useState({ 
+        x: 0, 
+        y: 0 
+    });
+    const [offset, setOffset] = useState({ x: 0, y: 0 });
+
+    const handleDragStart = (e: React.DragEvent<HTMLDivElement>) => {
+        const img:any = document.createElement('img');
+        img.src = transparentImage;
+        e.dataTransfer.setDragImage(img, 0, 0);
+        e.dataTransfer.setData('text/plain', '');
+        setIsDragging(true);
+        setOffset({
+            x: e.clientX - position.x,
+            y: e.clientY - position.y,
+        });
+    };
+    
+    const handleDrag = (e: React.DragEvent) => {
+        if (isDragging) {
+            setPosition({
+                x: e.clientX - offset.x,
+                y: e.clientY - offset.y,
+            });
+        }
+    };
+    
+    const handleDragEnd = (e:React.DragEvent) => {
+        setIsDragging(false);
+        setPosition({
+            x: e.clientX - offset.x,
+            y: e.clientY - offset.y,
+        });
+    };
 
     // Toggle between dfault and white close icon when hover
     const [closeButtonHover, setCloseButtonHover] = useState(false);
@@ -58,17 +86,16 @@ export const Window:React.FC<WindowProps> = ({
             {
                 windowVisible && (
                     <div 
-                        className={`min-w-[300px] w-1/4 bg-[#EFF3F6] shadow-lg h-28 fixed ${windowAlreadyExpanded ? "top-0" : "top-[50%]"} left-[50%] translate-y-[-55.5%] translate-x-[-50%] ${windowAlreadyExpanded ? "rounded-none" : "rounded-md"}  z-20`}
+                        className={`md:min-w-[300px]  bg-[#EFF3F6] shadow-lg fixed w-[95vw] ${windowAlreadyExpanded ? "md:rounded-none" : "md:rounded-md"}  z-50`}
                         style={{
-                            height: (typeof windowHeight === "string") ? windowHeight : `${windowHeight}px`,
-                            width: (typeof windowWidth === "string") ? windowWidth : `${windowWidth}px`,
-                            top: (!windowYPosition) ? "50%" : `${windowYPosition}px`,
-                            left: (!windowXPosition) ? "50%" : `${windowXPosition}px`,
-                            translate: "0",
+                            height: (window.innerWidth > 800) ? windowHeight as string : window.innerHeight - 100,
+                            width: (window.innerWidth > 800) ? windowWidth as string : window.innerWidth,
+                            transform: `translate(${position.x}px, ${position.y}px)`,
                         }}
-                        ref={windowRef}
                         draggable
-                        onDrag={handleDrag} 
+                        onDragStart={handleDragStart}
+                        onDrag={handleDrag}
+                        onDragEnd={handleDragEnd}
                     >
                         {/* Top Window */}
                         <div 
@@ -130,8 +157,11 @@ export const Window:React.FC<WindowProps> = ({
                                 height: (typeof height === "string") ? `calc(${height} - 44px)` : `calc(${height}px - 44px)`
                             }}    
                         >
-                            <div className="w-[98%] h-[96%] mx-auto mt-6 overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-thumb-[#6B6F72] scrollbar-track-transparent scrollbar-track-rounded-full">
-                                <Layout name={content || ""} />
+                            <div className="w-[98%] h-[91%] mx-auto mt-6 overflow-x-hidden overflow-y-scroll scrollbar-thin scrollbar-thumb-[#6B6F72] scrollbar-track-transparent scrollbar-track-rounded-full">
+                                <Layout 
+                                    name={content || ""} 
+                                    windowAlreadyExpanded={windowAlreadyExpanded}    
+                                />
                             </div>
                         </div>
                     </div>

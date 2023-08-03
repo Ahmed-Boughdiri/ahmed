@@ -39,3 +39,15 @@
     padding: 0;
     translate: 0 3px;
 }
+
+@media only screen and (width < 600px) {
+    .container {
+        height: 100%;
+    }
+    .contact_row {
+        flex-direction: column;
+    }
+    .contact {
+        width: 100%;
+    }
+}

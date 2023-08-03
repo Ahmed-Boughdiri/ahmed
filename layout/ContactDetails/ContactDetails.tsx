@@ -9,7 +9,10 @@ import gmailIcon from "../../assets/icons/social/gmail.png";
 export const ContactDetails = () => (
     <div className={styles.container}>
         <div className={styles.contact_row}>
-            <div className={styles.contact}>
+            <div 
+                className={styles.contact}
+                onClick={() => window.open("https://www.linkedin.com/in/ahmed-boughdiri/")}    
+            >
                 <Image 
                     src={linkedinIcon}
                     alt="linkedin icon"
@@ -20,7 +23,10 @@ export const ContactDetails = () => (
                     Linkedin
                 </h6>
             </div>
-            <div className={styles.contact}>
+            <div 
+                className={styles.contact}
+                onClick={() => window.open("https://twitter.com/BoughdiriAhmed")}    
+            >
                 <Image 
                     src={twitterIcon}
                     alt="twitter icon"
@@ -33,7 +39,10 @@ export const ContactDetails = () => (
             </div>
         </div>
         <div className={styles.contact_row}>
-            <div className={styles.contact}>
+            <div 
+                className={styles.contact}
+                onClick={() => window.open("https://medium.com/@ahmedboughdiri2020")}    
+            >
                 <Image 
                     src={mediumIcon}
                     alt="medium icon"
@@ -44,7 +53,10 @@ export const ContactDetails = () => (
                     Medium
                 </h6>
             </div>
-            <div className={styles.contact}>
+            <div 
+                className={styles.contact}
+                onClick={() => window.open(`https://mail.google.com/mail/?view=cm&fs=1&to=ahmedboughdiri2023@gmail.com`)}    
+            >
                 <Image 
                     src={gmailIcon}
                     alt="email icon"

@@ -84,6 +84,9 @@
     margin-top: 20px;
     padding: 0 12px;
 }
+.project_description_container * {
+    all: revert;
+}
 .project_description_label {
     font-size: 0.9rem;
     font-weight: bolder;
@@ -94,5 +97,28 @@
     font-weight: normal;
     color: #282C2F;
     margin-top: 5px;
+}
+
+/*  Mobile  */
+
+@media only screen and (width < 600px) {
+    .project_options {
+        flex-direction: column;
+        width: 100%;
+        gap: 12px;
+        margin-bottom: 20px;
+    }
+    .project_options> button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .project_info_header {
+        gap: 20px;
+    }
+    .project_rating {
+        display: none;
+    }
 }
 
