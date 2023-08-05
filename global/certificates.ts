@@ -10,7 +10,7 @@ export const certificates = [
         type: "English Certificate",
         date: "20/11/2019",
         size: 90,
-        path: "/access.pdf"
+        path: "https://ahmed-boughdiri.github.io/documents/access.pdf"
     },
     {
         name: "Go My Code - AI Level 1",
@@ -18,7 +18,7 @@ export const certificates = [
         type: "AI Certificate",
         date: "12/10/2020",
         size: 120,
-        path: "/gomycode.pdf"
+        path: "https://ahmed-boughdiri.github.io/documents/gomycode.pdf"
     },
     {
         name: "Bac Informatique",
@@ -26,6 +26,6 @@ export const certificates = [
         type: "baccalauréat",
         date: "09/07/2020",
         size: 50,
-        path: "/bac.pdf"
+        path: "https://ahmed-boughdiri.github.io/documents/bac.pdf"
     }
 ]

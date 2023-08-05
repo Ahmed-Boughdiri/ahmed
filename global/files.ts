@@ -5,11 +5,11 @@ export const files = [
     {
         name: "My CV",
         icon: cvIcon,
-        link: "/cv.pdf"
+        link: "https://ahmed-boughdiri.github.io/documents/cv.pdf"
     },
     {
         name: "Motivational Letter",
         icon: letterIcon,
-        link: "/cover-letter.pdf"
+        link: "https://ahmed-boughdiri.github.io/documents/cover-letter.pdf"
     }
 ]
